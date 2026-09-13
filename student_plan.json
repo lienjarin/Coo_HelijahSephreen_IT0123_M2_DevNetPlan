@@ -1,0 +1,39 @@
+{
+  "student_name": "Helijah Sephreen Tria Coo",
+  "section": "TS31",
+  "ai_tool": "Claude",
+  "entries": [
+    {
+      "use_case_id": "UC1",
+      "selected_resource_type": "always-on-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",
+      "ai_recommendation_summary": "Always-On Sandbox was recommended because the team needs immediate, shared, read-only API access with no time to wait for provisioning.",
+      "verification_status": "verified",
+      "rationale": "The scenario requires access without waiting for a reservation. It also requires non-admin, read-only API calls. Cisco defines them (Always-On-Sandbox) as shared, no-reservation environments with admin access."
+    },
+    {
+      "use_case_id": "UC2",
+      "selected_resource_type": "reservation-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",
+      "ai_recommendation_summary": "Reservation Sandbox was recommended since the team requires private, administrative access and can accept setup time and VPN connection.",
+      "verification_status": "verified",
+      "rationale": "The team wants administrative control to test changes in a configuration in a private area. They are ready to schedule access and connect through a VPN."
+    },
+    {
+      "use_case_id": "UC3",
+      "selected_resource_type": "learning-lab",
+      "official_evidence_url": "https://developer.cisco.com/learning/",
+      "ai_recommendation_summary": "DevNet Learning Lab was recommended because the user needs guided, step-by-step instructional content rather than a live execution environment.",
+      "verification_status": "verified",
+      "rationale": "A beginner who needs structured guided instruction, before working independently matches the purpose of Learning Labs. Learning Labs deliver step‑by‑step content instead of hands‑on device access."
+    },
+    {
+      "use_case_id": "UC4",
+      "selected_resource_type": "code-exchange",
+      "official_evidence_url": "https://developer.cisco.com/codeexchange/",
+      "ai_recommendation_summary": "Cisco Code Exchange was recommended so the developer can browse existing community and Cisco-maintained automation repositories before building a new solution.",
+      "verification_status": "verified",
+      "rationale": "The developer wants to look at the community and Cisco-run repositories to find automation examples. This is the goal of Cisco Code Exchange, which used to be called Automation Exchange."
+    }
+  ]
+}
